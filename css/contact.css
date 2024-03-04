@@ -1,7 +1,22 @@
 .contact-color {
-    background-color: #808080;
+    background-image: url(../project-pics/LoZ\ Background.jpg);
 }
-
+    
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+}
+.navigation-menu div {
+    
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    border-color: #000000;
+    border-style: groove;
+    border-radius: 15px;
+    width: 20%;
+    height: fit-content;
+    text-align: center;
+}
 .contact-text {
     margin: auto;
     width: 40%;
