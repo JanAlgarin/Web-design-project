@@ -21,11 +21,17 @@
 <body class="contact-color">
     <h1 class="contact-text">Contact Information</h1>
     <div>
-        <p> This is how you can contact me or my institution for any questions or feedback: <br></p>
-        <p> <a href="mailto:jriveraa@students.kennesaw.edu">You can send me an email here.</a> <br></p>
         <p>Or if you would like to contact KSU's Department of Information Technology you can call this number: <br> 470-KSU-INFO
             (470-578-4636)</p>
-            <img class="IT-image" src="project-pics/IT people.jpg" alt="Students studying in IT">
-    </div>
+        <form action="https://formsubmit.co/jriveraa@students.kennesaw.edu" method="POST">
+            <input type="text" name="Name" placeholder="Name" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <textarea name="Message" cols="30" rows="10" placeholder="Message" required></textarea>
+            <button class="contact-button" type="submit">Send</button>
+        </form>
+        <img class="IT-image" src="project-pics/IT people.jpg" alt="Students studying in IT">
+    </div>   
+            
+        
 </body>
 </html>

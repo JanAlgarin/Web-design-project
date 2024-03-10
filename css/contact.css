@@ -43,3 +43,8 @@ div {
 .IT-image {
     width: 60%;
 }
+
+.contact-button {
+    justify-content: center;
+    width: 40%;
+}
